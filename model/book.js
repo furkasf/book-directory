@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
-const Blog = require('../../reblog/model/model');
-const { model } = require('../../reblog/model/model');
+
 
 const schema = mongoose.Schema;
 
@@ -18,7 +17,7 @@ const bookSchmea = schema({
         require : true
     },
     img :{
-        type : Image,
+        type : String,
         require : true
     }
 })

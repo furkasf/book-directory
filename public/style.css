@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.link ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.link ul li a{
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: maroon;
+}
+section .error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .error a{
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+section .error a:hover{
+    color: red;
+    background-color: black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input{
+    width: 25%;
+    margin: 10px;
+}
