@@ -1,0 +1,10 @@
+<form action="/new" method="POST">
+    <label>author name:</label>
+    <input type="text" name='name'>
+    <button>add</button>
+</form>
+<% author.forEach(author =>{ %> 
+    <div>
+        <h3><%- author.name %> </h3>
+    </div>
+<% }) %> 
